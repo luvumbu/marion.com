@@ -6,12 +6,11 @@
 		margin: auto;
   	display: flex;
 	}	
-	.img_section {
-		transition: 1s all;
+	.img_section ,.img_section2,.img_section3{
+		transition: 3s all;
 		width: 1400px;
 		height: 730px;
  		margin: auto;
-		background-image: url("../../src/img/section/photoDefile1_1500px.png");
 		background-size: 100%;
 			 }
 
@@ -22,6 +21,18 @@
 				background-image: url("../../src/img/section_world/world_1500px.png");
 				background-size: 100%;
 			}
+
+					 .img_section { 
+						background-image: url("../../src/img/section/photoDefile1_1500px.png");
+		 							 }
+
+			.img_section2 { 
+				background-image: url("../../src/img/section/photoDefile_2000.png");
+						}
+						.img_section3 { 
+							background-image: url("../../src/img/section/photoDefile3_1500.png");
+									}
+
 		}
 
 @media screen and (min-width: 2000px) and (max-width: 10500px) {
@@ -32,14 +43,24 @@
 		display: flex;
 	}	
 
-	.img_section {
-		transition: 1s all;
+	.img_section,.img_section2,.img_section3 {
+		transition: 3s all;
 		width: 2000px;
 		height: 1063px;
  		margin: auto;
-		background-image: url("../../src/img/section/photoDefile1_2000px.png");
 		background-size: 100%;
 			 }
+			 .img_section {
+				background-image: url("../../src/img/section/photoDefile1_2000px.png");
+
+						}
+		 .img_section2 {
+				background-image: url("../../src/img/section/photoDefile_2000.png");
+ 					 }
+						.img_section3 {
+							background-image: url("../../src/img/section/photoDefile3_2000.png");
+									}
+			 
 			 .div_world {
 				width: 2000px;
 				height: 1291px;
