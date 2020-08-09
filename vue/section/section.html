@@ -1,19 +1,51 @@
 <div :class="img_section">
 	<div class="block_the_section">
-			<div :class="img_section_class">
-		{{img_section_text}}
+		<div :class="img_section_class">
+			{{img_section_text}}
+		</div>
+		<div :class="img_section_vide"></div>
 	</div>
-	<div :class="img_section_vide"></div>
+	<div :class="cercl_section1_parrent">
+		<div :class="cercl_section1" v-on:click="cercl_section1_1"></div>
+		<div :class="cercl_section2" v-on:click="cercl_section2_2"></div>
+		<div :class="cercl_section3" v-on:click="cercl_section3_3"></div>
 	</div>
-<div :class="cercl_section1_parrent">
-	<div :class="cercl_section1" v-on:click="cercl_section1_1"></div>
-	<div :class="cercl_section2" v-on:click="cercl_section2_2"></div>
-	<div :class="cercl_section3" v-on:click="cercl_section3_3"></div>
-</div>
 </div>
 <div class="div_world"></div>
-
-<div>
-	{{ message }}
+<div class="carnet">
+	<div>
+		<h3>Chine</h3>
+		<img src="src/img/carnet/1chine.png" alt="">
+	</div>
+	<div>
+		<h3>Mexique</h3>
+		<img src="src/img/carnet/2mexique.png" alt="">
+	</div>
+	<div>
+		<h3>France</h3>
+		<img src="src/img/carnet/3france.png" alt="">
+	</div>
+	<div>
+		<h3>Martinique</h3>
+		<img src="src/img/carnet/4martinique.png" alt="">
+	</div>
+	<div>
+		<h3>Afrique</h3>
+		<img src="src/img/carnet/5afrique.png" alt="">
+	</div>
+	<div>
+		<h3>Quebec</h3>
+		<img src="src/img/carnet/6quebec.png" alt="">
+	</div>
+	<div class="ilsMontFaitConfiance">
+				<h3>Ils m’ont fait confiance</h3>
+	</div>
+	<div class="confiance">
+		<img src="src/img/confiance/logoParadiski.png" alt="">
+		<img src="src/img/confiance/fapLogo.png" alt="" alt="">
+		<img src="src/img/confiance/jardisignLogo.png" alt="" alt="">
+	</div>
 </div>
- <div style="margin-bottom: 600px;"></div>
+
+
+<div style="margin-bottom: 300px;"></div>

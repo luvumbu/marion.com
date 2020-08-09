@@ -2,7 +2,6 @@
 <link rel="stylesheet" href="vue/header/header.css">
 <link rel="stylesheet" href="vue/section/section.css">
 <link rel="stylesheet" href="vue/footer/footer.css">
-
 <script src="vue/header/header.js"></script>
 <script src="vue/section/section.js"></script>
 <script src="vue/footer/footer.js"></script>
@@ -12,7 +11,6 @@
 <link rel="stylesheet" href="body_font.css">
 <link rel="stylesheet" href="font.css">
 <link rel="shortcut icon" type="image/png" href="src/img/favicon.png">
-
 <!-- https://fontawesome.com/ -->
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <!--

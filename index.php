@@ -11,8 +11,6 @@
 	include("link.php");
 ?>
 <style>
-	
-
 /* 
 .block_the_section {
 		text-align: center;
@@ -39,28 +37,7 @@
 		
 	} */
 
-
-
-
-
-
-
-
-
 </style>
-
-
-
-
-
-
-
-
-
-
-
-
-
 </body>
 </html>
  
